@@ -1,0 +1,48 @@
+// general styles for the project that wouldn't be a reuseable component
+
+// page banner images
+.overview .banner__bg { background-image: url('../img/content/overview/bg.jpg'); }
+.verbier .banner__bg { background-image: url('../img/content/verbier/bg.jpg'); }
+.zermatt .banner__bg { background-image: url('../img/content/zermatt/bg.jpg'); }
+.sass-fee .banner__bg { background-image: url('../img/content/sass-fee/bg.jpg'); }
+.travel .banner__bg { background-image: url('../img/content/travel/bg.jpg'); }
+.competition .banner__bg { background-image: url('../img/content/competition/bg.jpg'); }
+
+// special line title
+.title--line {
+  overflow: hidden;
+  text-align: center;
+  color: $s-red;
+  &-wrap {
+    position: relative;
+    display: inline-block;
+    &:before,
+    &:after {
+      // line either side of title effect
+      content: '';
+      position: absolute;
+      top: 52%; // 2% offset for source sans' weird line height
+      height: 1px;
+      width: 300%;
+      background-color: $s-red-lighter;
+    }
+    &:before {
+      right: 100%;
+      margin-right: $s1;
+    }
+    &:after {
+      left: 100%;
+      margin-left: $s1;
+    }
+  }
+}
+
+
+.border {
+  border-bottom: solid 3px $s-red;
+  &--sm { border-bottom: solid 1px $s-red; }
+ }
+
+.bg-img--travel:before {
+  padding-top: 84%;
+}

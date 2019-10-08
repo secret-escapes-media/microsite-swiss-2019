@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+{% assign resort-pages = site.html_pages | where: "layout", "resort" %}
+
+<div class="vpad--xxl">
+  <div class="container">
+    <div class="width width--xl text--lg text--center">
+      <p class="title title--sm text--red">{{page.intro}}</p>
+      <p>{{site.description}}</p>
+    </div>
+  </div>
+</div>
+
+<div class="bg--beige vpad--xl">
+  <div class="container">
+    <div class="row row--6-6 row--valign-center">
+      <div class="col">
+        <div class="bg-img bg-img--1-1" style="background-image: url('{{site.img}}/content/{{page.id}}/why-switzerland.jpg')">
+          <a href="#link" class="bg-img__link"></a>
+        </div>
+      </div>
+      <div class="col">
+        <h2 class="title title--lg text--red">Why Ski in Switzerland?</h2>
+        <div class="text--xl space--xs">
+          <p>As the snow falls heavy over the iconic peaks of the Alps, Switzerland turns into a veritable winter-sports playground. With some of the most impressive mountains in the range, plus the most luxurious ski resorts you’ll find anywhere, Switzerland is a superlative choice for any ski holiday this winter.</p>
+          <p>With SWISS offering free ski equipment transport<sup>*</sup>, plus tickets from as little as £74 one-way<sup>*</sup>, you’ll be treated to warm, Swiss hospitality before you’ve even landed. Even more reason to grab your skis and jet off to Switzerland.</p>
+        </div>
+        <div class="space--sm"></div>
+        <div class="title title--xs text--red">SWISS flights from £74 one-way*</div>
+        <div class="space--md"></div>
+        <a href="#link" class="btn btn--red" id="track-{{page.id}}-why-switzerland-btn">Book Now</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="vpad--xxl">
+  <div class="container">
+    <div class="text--center">
+      <h2 class="title title--line title--xl"><span class="title--line-wrap">Our Favourite Resorts</span></h2>
+    </div>
+    <div class="row row--md-6-6 row--xxl-4-4-4 space--xl">
+      {% for page in resort-pages %}
+        <div class="col">
+          <div class="bg-img bg-img--3-2 bg-img--md-2-3 border" style="background-image: url('{{site.img}}/content/{{page.id}}/bg.jpg');">
+            <a href="{{site.baseurl}}{{page.url}}" class="bg-img__link"></a>
+            <div class="bg-img__content">
+              <div class="title title--xl">{{page.title}}</div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="space--lg"></div>
+  </div>
+</div>

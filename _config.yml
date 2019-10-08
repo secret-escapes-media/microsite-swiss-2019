@@ -1,0 +1,24 @@
+# Site settings
+title: Winter in Switzerland
+client:
+  name: Swiss International Air Lines
+  link: https://www.swiss.com/gb/en
+core-se-link: https://www.secretescapes.com/current-sales
+description: >
+  From alpine traditions to contemporary flair, Switzerland seamlessly intertwines old and new, catering for a vast range of tastes. Snowy chalets and cosy mountain pubs, cable cars and cuckoo clocks – tropes all found on the mountainside, sat next to bustling cities and chic ski resorts packed with contemporary art, fine dining, boutique shopping and trendy rooftop bars. If your winter dream is sailing down mountainsides and winding down in a hot tub, heading out and exploring your decadent apres-ski options, make Switzerland this year’s ski destination.
+
+# file paths
+url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
+baseurl: "/swiss" # the subpath of your site, e.g. /blog/
+img:     "/swiss/_assets/img"
+css:     "/swiss/_assets/css"
+js:      "/swiss/_assets/js"
+
+
+# Build settings
+markdown: kramdown
+exclude: [node_modules, gulpfile.js, package.json, package-lock.json, js/script.js]
+keep_files: [_assets]
+sass:
+    sass_dir: css
+    style: compressed
