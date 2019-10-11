@@ -29,6 +29,6 @@ classes:
     title: Economy
     contents:
       - p: Economy doesn’t have to mean basic; with great SWISS hospitality, there’s no reason not to feel spoilt.
-      - p: With easy check-in and comfortable seats with plenty of leg-room, there’s nothing to suggest you’re flying Economy. Included in each ticket price, a small snack or light meal with produce from Switzerland ensures great quality and authenticity. Economy still allows for plenty comfort in-flight, and SWISS is determined to ensure a relaxed and pleasant journey.
+      - p: With easy check-in and comfortable seats with plenty of leg-room, there’s nothing to suggest you’re flying Economy. Included in each ticket price, a small snack or light meal with produce from Switzerland ensures great quality and authenticity. Economy still allows for plenty of comfort in-flight, and SWISS is determined to ensure a relaxed and pleasant journey.
     link: "#link"
 ---
