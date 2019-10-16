@@ -6,6 +6,7 @@ nav: true
 nav-order: 2
 content-pages: true
 intro: Verbier is the glamorous starlet of the Swiss ski scene. Perfect-powder pistes are just the start; the resort is your luxury pick for one five-star ski escape.
+travel: Verbier is just two hours from Geneva airport, so fly from London with SWISS to get the heart of the action.
 
 topics:
 

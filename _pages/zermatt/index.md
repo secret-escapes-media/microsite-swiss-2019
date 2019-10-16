@@ -6,6 +6,7 @@ nav: true
 nav-order: 3
 content-pages: true
 intro: This stylish, famous resort is a perfect introduction to the ski-break scene; great slopes, fine dining and plenty of spa retreats make this a quintessential alpine experience.
+travel: Zermatt is just three hours from Geneva airport, so fly from London with SWISS and head for the slopes.
 
 topics:
 

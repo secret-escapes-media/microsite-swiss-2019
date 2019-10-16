@@ -9,6 +9,6 @@ intro: The snow-capped peaks of the Swiss Alps provide a winter-sports paradise,
 banner:
   content: >
     <div class="width width--xl">
-      <img class="" src="{{site.img}}/title.svg" alt="{{site.title}}">
+      <img src="{{site.img}}/title.svg" alt="{{site.title}}">
     </div>
 ---

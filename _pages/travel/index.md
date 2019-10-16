@@ -5,30 +5,23 @@ title: Travel
 nav: true
 nav-order: 5
 content-pages: true
-intro: Your holiday shouldn’t start when you arrive at your hotel, it should begin when you check-in at the airport. Comfort starts here, with airport lounges catering to the most discerning of travellers, and offering luxury without bounds. In-flight, the service continues, with a range of great perks to make your journey as relaxed as possible. This is Swiss hospitality.
+intro: Fly with Switzerland’s national airline – SWISS. Naturally, you can expect only the highest quality and service standards, as you fly to the beguiling mountain resorts for truly unforgettable adventure. With more than 160 flights each week from the UK, it’s never been easier to hit the slopes. Discover what makes SWISS the natural choice for your ski getaway here.
+link: https://www.swiss.com/unitedkingdom/en/swiss-the-skiers-airline-lon
 
-lounges:
+features:
 
-  - id: geneva-lounge
-    title: Geneva Lounge
-    contents:
-      - p: Feel pampered in the Geneva Lounge, for maximum comfort on your onward journey.
-      - p: Kick back in the Geneva Lounge with personal service that always goes the extra mile. With the advantage of a short walk to your boarding gate, you’ll have plenty of time to enjoy a light meal before jetting off to your destination. If you’re on business, pop over to the E-Corner to catch up with your emails in peace. SWISS will happily cater to any needs you have.
-    link: "#link"
+  - id: ski
+    title: Ski Equipment goes Free
+    description: SWISS is the skier’s airline of choice. Why? Skis go free of course! Your equipment flies with no hidden charges, allowing you to spend less time worrying (and paying) for your gear, and more time travelling in comfort to your piste of choice. What’s more, SWISS fly from London to Geneva and Zurich, and in February, even to Sion – the closest hub for Verbier, Zermatt and Saas-Fee.
+    link: https://www.swiss.com/unitedkingdom/en/swiss-the-skiers-airline-lon
 
-classes:
+  - id: geneva
+    title: Destination Geneva
+    description: Geneva is the destination for winter adventures. It is perfectly located for easy access to famous ski resorts in Switzerland and the French and Italian Alps. Some of the finest skiing in the country is but a short hop from the airport, making it your gateway to winter adventure. Fly from London for as little as £82 – with ski equipment flying free.
+    link: https://www.swiss.com/Explore/EN/switzerland/geneva/information
 
-  - id: business
-    title: Business
-    contents:
-      - p: Award-winning Business Class service is designed around your comfort and your needs, where functionality meets opulence.
-      - p: With extra baggage allowance, access to exclusive lounges and priority boarding, as a Business Class passenger you’ll be on your way in no time. On board you’ll enjoy a range of Swiss specialities, all made from fresh regional ingredients. For extra privacy, your neighbouring seat will remain vacant as you explore a host of quality magazines and newspapers.
-    link: "#link"
-
-  - id: economy
-    title: Economy
-    contents:
-      - p: Economy doesn’t have to mean basic; with great SWISS hospitality, there’s no reason not to feel spoilt.
-      - p: With easy check-in and comfortable seats with plenty of leg-room, there’s nothing to suggest you’re flying Economy. Included in each ticket price, a small snack or light meal with produce from Switzerland ensures great quality and authenticity. Economy still allows for plenty of comfort in-flight, and SWISS is determined to ensure a relaxed and pleasant journey.
-    link: "#link"
+  - id: choice
+    title: SWISS Choice
+    description: For those looking for that little bit extra, don’t miss a range of conveniences for little extra cost. At Geneva, skip the security queues with the SWISS priority lane and let them take care of your shuttle to and from the airport. Or, purchase a Swiss Travel Pass, which not only works on public transport across the country, but also gains you free entry in hundreds of museums and offers discounts on mountains trains.
+    link: https://www.swiss.com/ch/en/book/swiss-choice
 ---

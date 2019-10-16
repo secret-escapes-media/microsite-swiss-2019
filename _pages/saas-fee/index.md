@@ -6,6 +6,7 @@ nav: true
 nav-order: 4
 content-pages: true
 intro: If you’re looking for a more low-key, quieter place to enjoy this special corner of the Alps, Saas Fee embodies Swiss village goodness, whilst remaining a great place to ski and wind down in the evenings.
+travel: Saas Fee is just three hours from Geneva airport, so fly from London with SWISS to reach the start of your adventure.
 
 topics:
 

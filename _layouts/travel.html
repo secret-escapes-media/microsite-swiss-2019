@@ -6,50 +6,16 @@ layout: default
   <div class="container">
     <div class="width width--xl text--xl text--normal text--center">
       <p>{{page.intro}}</p>
-      <p><span class="title title--xs text--red">SWISS flights from £74 one-way*</span></p>
+      <p><span class="title title--xs text--red">SWISS flights from £82 one-way</span></p>
       <div class="space--md"></div>
-      <a href="#link" class="btn btn--outline btn--outline-red">Book Now</a>
+      <a href="{{page.link}}" class="btn btn--outline btn--outline-red">Book Now</a>
     </div>
   </div>
 </div>
 
 <div class="vpad--xxl">
   <div class="container">
-    {% for item in page.lounges %}
-      <div class="bob{% cycle '', ' bob--swap' %}">
-        <div class="bob__img">
-          <div class="bg-img bg-img--travel" style="background-image: url('{{site.img}}/content/{{page.id}}/{{item.id}}.jpg');">
-            <a href="{{item.link}}" class="bg-img__link"></a>
-          </div>
-        </div>
-        <div class="bob__text">
-          <h3 class="title text--red title--lg">{{item.title}}</h3>
-          {% for item-content in item.contents %}
-            <p{% if forloop.index == 1 %} class="text--xxl"{% endif %}>{{item-content.p}}</p>
-          {% endfor %}
-          <div class="space--md"></div>
-          <a href="{{item.link}}" class="btn btn--outline btn--outline-red">Find Out More</a>
-        </div>
-      </div>
-      {% unless forloop.last %}<div class="space--xxxl"></div>{% endunless %}
-    {% endfor %}
-  </div>
-</div>
-
-<div class="vpad--xxxxl bg--dark bg--img" style="background-image: url('{{site.img}}/content/{{page.id}}/bg-ski-promo.jpg')">
-  <div class="container">
-    <div class="text--white text--center">
-      <h2 class="title title--xxl">Ski Equipment Flies For&nbsp;Free</h2>
-      <p class="width width--xl text--normal text--xxl">Don’t fork out extra when going on a ski-holiday; fly with SWISS who understand your needs. Ski equipment flies for free<sup>*</sup>, making sure you have the best possible time in Switzerland’s famous resorts. As long as the equipment does not exceed your overall baggage allowance, there will be no extra cost incurred.</p>
-      <div class="space--sm"></div>
-      <a href="#link" class="btn btn--red">Book now</a>
-    </div>
-  </div>
-</div>
-
-<div class="vpad--xxl">
-  <div class="container">
-    {% for item in page.classes %}
+    {% for item in page.features %}
       <div class="bob{% cycle '', ' bob--swap' %}">
         <div class="bob__img">
           <div class="bg-img bg-img--4-3" style="background-image: url('{{site.img}}/content/{{page.id}}/{{item.id}}.jpg');">
@@ -57,10 +23,8 @@ layout: default
           </div>
         </div>
         <div class="bob__text">
-          <h3 class="title text--red title--lg">{{item.title}}</h3>
-          {% for item-content in item.contents %}
-            <p{% if forloop.index == 1 %} class="text--xxl"{% endif %}>{{item-content.p}}</p>
-          {% endfor %}
+          <h3 class="title text--red title--md">{{item.title}}</h3>
+          <p class="text--lg">{{item.description}}</p>
           <div class="space--md"></div>
           <a href="{{item.link}}" class="btn btn--outline btn--outline-red">Find Out More</a>
         </div>
