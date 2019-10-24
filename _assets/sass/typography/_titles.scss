@@ -79,3 +79,13 @@
   @include bp($md){ font-size: $s9; }
   @include bp($xl){ font-size: $s11; }
 }
+
+.comp-title {
+  font-family: $font-title-01;
+  line-height: .95;
+  letter-spacing: -.05rem;
+  font-weight: 300;
+  font-size: $s9;
+  margin-bottom: .1em;
+  &--lg { font-size: $s10; }
+}

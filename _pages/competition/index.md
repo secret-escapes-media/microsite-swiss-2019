@@ -5,8 +5,9 @@ nav: true
 nav-order: 7
 
 title: Compet&shy;ition
-long-title: Win an amazing prize to destination with five star hotel
-intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur aspernatur beatae tempora, voluptates ut recusandae ea exercitationem culpa mollitia quia similique. Perferendis cumque obcaecati ad pariatur. Quos iure sapiente amet beatae, officiis possimus minima expedita, ea ad. Doloribus et perspiciatis doloremque. Tenetur consequatur quam maiores odit, adipisci nostrum numquam quo mollitia eligendi! Debitis, culpa impedit, ex esse fugit enim quibusdam!
+long-title: Your chalet awaits – enter now to win!
+intro: How does waking up to mountain views sound? With breakfast? Skis by the door and a short hop to the cable car that puts you at the heart of Verbier’s finest slopes? It sounds fantastic, of course. And it could all be yours. Enter now and win three luxurious nights at Üna Lodge, a contemporary stay in the heart of Le Châble with sauna and hot tub for those apres ski soothers. You’ll be a stones-throw from the cable car that ascends to Verbier’s best slopes, and close to a fine selection of restaurants, bars and shops. Get there with SWISS, who will fly you from London to Geneva with all your ski equipment.
+short-intro: Wake up to mountain views, stay in bed, drink your coffee, grab your skis and hit the slopes. Win this unmissable ski break and this could be you, staying at the contemporary Üna Lodge with flights from SWISS.
 enter-cta: Enter Now
 
 competition-form:
@@ -36,7 +37,7 @@ competition-form:
           invalid: true
     - id: opt-in
       type: radio
-      label: Would you like to receive emails from our Partner brand?
+      label: Would you like to receive emails from Swiss International Air Lines?
       required: true
       options:
         - id: opt-in-true
@@ -45,61 +46,6 @@ competition-form:
         - id: opt-in-false
           label: 'No'
           value: 'no'
-    - id: storytime
-      type: text-long
-      label: Tell us about your favourite travel experience
-      required: true
-    - id: eggs
-      type: select
-      label: What is your favourite continent?
-      required: true
-      options:
-        - label: Africa
-          value: africa
-        - label: Antarctica
-          value: antarctica
-        - label: Asia
-          value: asia
-        - label: Europe
-          value: europe
-        - label: North America
-          value: north-america
-        - label: Oceania
-          value: oceania
-        - label: South America
-          value: south-america
-    - id: contact
-      type: checkbox
-      label: Do you have a preference on how we should contact you?
-      required: true
-      options:
-        - id: contact-email
-          label: Email
-          value: email
-        - id: contact-post
-          label: Post
-          value: post
-        - id: contact-phone
-          label: Phone
-          value: phone
-    - id: week
-      type: select
-      label: What is your favourite day of the week?
-      options:
-        - label: Monday
-          value: mon
-        - label: Tuesday
-          value: tue
-        - label: Wednesday
-          value: wed
-        - label: Thursday
-          value: thur
-        - label: Friday
-          value: fri
-        - label: Saturday
-          value: sat
-        - label: Sunday
-          value: sun
   submit: Submit Entry
   terms: >
     By submitting your entry, you agree to the <a href="#" class="js-open-modal link--underlined" data-open-modal="competition-terms">terms and conditions</a> of this competition

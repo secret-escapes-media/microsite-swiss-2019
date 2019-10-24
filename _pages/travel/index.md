@@ -6,7 +6,7 @@ nav: true
 nav-order: 5
 content-pages: true
 intro: Fly with Switzerland’s national airline – SWISS. Naturally, you can expect only the highest quality and service standards, as you fly to the beguiling mountain resorts for truly unforgettable adventure. With more than 160 flights each week from the UK, it’s never been easier to hit the slopes. Discover what makes SWISS the natural choice for your ski getaway here.
-link: https://www.swiss.com/unitedkingdom/en/swiss-the-skiers-airline-lon
+link: https://www.swiss.com/GB/en?utm_medium=affiliate&utm_source=secretescapes&utm_campaign=lx_gb_en_secretescapespromo_desktop
 
 features:
 
@@ -22,6 +22,6 @@ features:
 
   - id: choice
     title: SWISS Choice
-    description: For those looking for that little bit extra, don’t miss a range of conveniences for little extra cost. At Geneva, skip the security queues with the SWISS priority lane and let them take care of your shuttle to and from the airport. Or, purchase a Swiss Travel Pass, which not only works on public transport across the country, but also gains you free entry in hundreds of museums and offers discounts on mountains trains.
-    link: https://www.swiss.com/ch/en/book/swiss-choice
+    description: For those looking for that little bit extra, don’t miss a range of conveniences for little extra cost. At Geneva, skip the security queues with the SWISS priority lane and let them take care of your shuttle to and from the airport. It’s the perfect option for skiers, lugging around heavy equipment – let SWISS take care of your needs and make your transfers effortless.
+    link: https://www.swiss.com/ch/en/Book/swiss-choice/Geneva?utm_medium=affiliate&utm_source=secretescapes&utm_campaign=lx_gb_en_secretescapespromo_desktop
 ---
