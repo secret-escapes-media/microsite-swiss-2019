@@ -47,3 +47,9 @@
 .bg-img--travel:before {
   padding-top: 84%;
 }
+
+.banner-video {
+  display: none;
+  width: 100%;
+  @include bp($xl) { display: block; }
+}

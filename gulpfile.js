@@ -116,6 +116,12 @@ function buildJs(cb) {
   }));
 }
 
+// build for video files
+function buildVideo() {
+  return gulp.src('./_assets/video/**/*.*')
+  .pipe(gulp.dest('./_site/_assets/video/'));
+}
+
 
 
 /////////////////////////////////////////////////////////////////////////  watch
@@ -207,7 +213,8 @@ var build = gulp.series(
     buildSass,
     buildImages,
     buildJsMain,
-    buildJs
+    buildJs,
+    buildVideo
   )
 );
 var compress = gulp.parallel(
