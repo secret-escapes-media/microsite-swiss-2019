@@ -12,8 +12,8 @@ enter-cta: Enter Now
 
 competition-form:
   id: comp
-  post-url: "#getFormUrl"
-  expiry-date: 2050-01-01
+  post-url: https://getform.io/f/0c4bee73-4490-4f4e-8190-a643fe6b896f
+  expiry-date: 2020-01-01
   fields:
     - id: name
       type: text

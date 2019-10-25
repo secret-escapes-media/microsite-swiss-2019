@@ -8,7 +8,9 @@ intro: The snow-capped peaks of the Swiss Alps provide a winter-sports paradise,
 
 banner:
   content: >
-    <div class="width width--xl">
-      <img src="{{site.img}}/title.svg" alt="{{site.title}}">
+    <div class="container container--no-padding">
+      <div class="width width--xl">
+        <img src="{{site.img}}/title.svg" alt="{{site.title}}">
+      </div>
     </div>
 ---

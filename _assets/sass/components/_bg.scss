@@ -16,4 +16,15 @@
     background-color: $grey-darker;
   }
   &--beige { background-color: $s-beige; }
+  &--adventure { background-image: url('../img/content/adventure-bg.jpg'); }
+  &--food-and-drink {
+    background-image: url('../img/content/food-and-drink-bg.jpg');
+    background-image: url('../img/content/food-and-drink-mobile-bg.jpg');
+    @include bp($xl) { background-image: url('../img/content/food-and-drink-bg.jpg'); }
+  }
+  &--relax {
+    background-image: url('../img/content/relax-bg.jpg');
+    background-image: url('../img/content/relax-mobile-bg.jpg');
+    @include bp($xl) { background-image: url('../img/content/relax-bg.jpg'); }
+  }
 }

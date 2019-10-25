@@ -8,7 +8,7 @@ layout: default
       <p>{{page.intro}}</p>
       <p><span class="title title--xs text--red">SWISS flights from £82 one-way</span></p>
       <div class="space--md"></div>
-      <a href="{{page.link}}" class="btn btn--outline btn--outline-red">Book Now</a>
+      <a href="{{page.link}}" class="btn btn--outline btn--outline-red" id="track-{{page.id}}-intro-btn">Book Now</a>
     </div>
   </div>
 </div>
@@ -21,14 +21,14 @@ layout: default
       <div class="bob{% cycle '', ' bob--swap' %}">
         <div class="bob__img">
           <div class="bg-img bg-img--4-3" style="background-image: url('{{site.img}}/content/{{page.id}}/{{item.id}}.jpg');">
-            <a href="{{item.link}}" class="bg-img__link"></a>
+            <a href="{{item.link}}" class="bg-img__link" id="track-{{page.id}}-{{item.id}}-img"></a>
           </div>
         </div>
         <div class="bob__text">
           <h3 class="title text--red title--md">{{item.title}}</h3>
           <p class="text--lg">{{item.description}}</p>
           <div class="space--md"></div>
-          <a href="{{item.link}}" class="btn btn--outline btn--outline-red">Find Out More</a>
+          <a href="{{item.link}}" class="btn btn--outline btn--outline-red" id="track-{{page.id}}-{{item.id}}-btn">Find Out More</a>
         </div>
       </div>
       {% unless forloop.last %}<div class="space--xxxl"></div>{% endunless %}

@@ -1,7 +1,10 @@
 // general styles for the project that wouldn't be a reuseable component
 
 // page banner images
-.overview .banner__bg { background-image: url('../img/content/overview/bg.jpg'); }
+.overview .banner__bg {
+  background-image: url('../img/content/overview/bg-mobile.jpg');
+  @include bp($lg) { background-image: url('../img/content/overview/bg.jpg'); }
+}
 .verbier .banner__bg { background-image: url('../img/content/verbier/bg.jpg'); }
 .zermatt .banner__bg { background-image: url('../img/content/zermatt/bg.jpg'); }
 .saas-fee .banner__bg { background-image: url('../img/content/saas-fee/bg.jpg'); }

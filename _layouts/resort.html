@@ -8,18 +8,18 @@ layout: default
       <p>{{page.intro}}</p>
       <p>{{page.travel}}</p>
       <div class="space--md"></div>
-      <a href="#link" class="btn btn--outline btn--outline-red">Book Now</a>
+      <a href="https://www.swiss.com/GB/en?utm_medium=affiliate&utm_source=secretescapes&utm_campaign=lx_gb_en_secretescapespromo_desktop" class="btn btn--outline btn--outline-red" id="track-{{page.id}}-intro-btn">Book Now</a>
     </div>
   </div>
 </div>
 
 {% for item in page.topics %}
-  <div class="vpad--xxxxl bg--img" style="background-image: url('{{site.img}}/content/{{item.id}}-bg.jpg')">
+  <div class="vpad--xxxxl bg--img bg--{{item.id}}">
     <div class="container">
       <div class="row row--gutters-lg row--valign-center{% cycle '', ' row--reverse' %}">
         <div class="col col--xl-7">
           <div class="bg-img bg-img--1-1" style="background-image: url('{{site.img}}/content/{{page.id}}/{{item.id}}.jpg')">
-            <a href="#link" class="bg-img__link"></a>
+            <a href="https://www.swiss.com/GB/en?utm_medium=affiliate&utm_source=secretescapes&utm_campaign=lx_gb_en_secretescapespromo_desktop" class="bg-img__link" id="track-{{page.id}}-{{item.id}}-img"></a>
           </div>
         </div>
         <div class="col col--xl-5">
@@ -27,7 +27,7 @@ layout: default
             <h2 class="title title--line title--lg"><span class="title--line-wrap">{{item.title}}</span></h2>
           </div>
           {% for item-content in item.contents %}
-            <p{% if forloop.index == 1 %} class="text--xxl"{% endif %}>{{item-content.p}}</p>
+            <p class="text--black {% if forloop.index == 1 %} text--xxl{% endif %}">{{item-content.p}}</p>
           {% endfor %}
         </div>
       </div>
