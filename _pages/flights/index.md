@@ -1,7 +1,7 @@
 ---
 layout: travel
 id: travel
-title: Travel
+title: flights
 nav: true
 nav-order: 5
 content-pages: true
